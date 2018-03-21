@@ -1,7 +1,7 @@
 # Pipeline-Data-Exploration
 ## EDA and preliminary analysis of pipeline accidents
 
-[try](http://htmlpreview.github.com/?https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/cumulative_accidents.html)
+[try](http://htmlpreview.github.com/?https://raw.githubusercontent.com/cstaff18/Pipeline-Data-Exploration/master/monthly_accidents.html)
 
 {::nomarkdown}
 
