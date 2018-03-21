@@ -20,3 +20,21 @@ With these graphs you can see the most common locations for spills such as Houst
 It appeared that accidents were becoming more frequent over time so I wanted to dig in deeper and figure out what was going on. Below shows the yearly break down of accident counts.
 
 ![Yearly Accident Count](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/AccidentsByYear.png "Accidents By Year")
+
+Accidents were certainly increasing but I wanted to know if the increase indicated a significant change in accident rate.  I performed a T-test to test wether the accident rate in 2016 was statistically significant from 2010 with a significance level on 95%.
+
+Results:
+
+T-Statistic: | P-Value: | Significant Change?
+--- | --- | ---
+-1.085| 0.030 | Yes
+
+#### Switch Point Analysis
+
+Lets take a look at the daily accident count for the whole range of our data set.
+
+![Daily Accident Count](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/DailyAccidentGraph.png "Accidents By Day")
+
+Now lets assume that the increase in accident rate happened on a single day.  With the PyMC3 library we can use a bayesian switch point analysis to find the accident rates (lambda) before and after the switch point as well as what day the switch point occurred (tau).
+
+![Single Switch Point](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/1SwitchPoint.png "Switch Point Analysis")
