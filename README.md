@@ -21,7 +21,7 @@ It appeared that accidents were becoming more frequent over time so I wanted to 
 
 ![Yearly Accident Count](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/AccidentsByYear.png "Accidents By Year")
 
-Accidents were certainly increasing but I wanted to know if the increase indicated a significant change in accident rate.  I performed a T-test to test wether the accident rate in 2016 was statistically different from 2010 with a significance level on 95%.
+Accidents were certainly increasing but I wanted to know if the increase indicated a significant change in accident rate.  I performed a T-test to test wether the accident rate in 2016 was statistically different from 2010 with a significance level of 95%.
 
 Results:
 
