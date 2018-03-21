@@ -39,6 +39,12 @@ Now lets assume that the increase in accident rate happened on a single day.  Wi
 
 ![Single Switch Point](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/1SwitchPoint.png "Switch Point Analysis")
 
-The results indicate that there are two distinct accident rates, around 0.95 accidents per day and 1.2 accidents per day. The switch point is around 2012 with the most likely day, day 1092, corresponding to December 27th 2012. There is another clusterings of likely switch dates that correspond to roughly to end of year 2013. This could potentially indicate that there are two switch dates. Let's see how our model reacts if we add another lambda and tau term to simulate two step changes in the frequency of accidents.
+The results indicate that there are two distinct accident rates, around 0.95 accidents per day and 1.2 accidents per day. The switch point is around 2012 with the most likely day, day 1092, corresponding to December 27th 2012. There is another clusterings of likely switch dates that correspond to roughly end of year 2013. This could potentially indicate that there are two switch dates. Let's see how our model reacts if we add another lambda and tau term to simulate two step changes in the frequency of accidents.
 
 ![Two Switch Point](https://github.com/cstaff18/Pipeline-Data-Exploration/blob/master/images/2SwitchPoint.png "2 Switch Points Analysis")
+
+
+## Acknowledgements
+[Kaggle](https://www.kaggle.com/usdot/pipeline-accidents) and [DOT](https://catalog.data.gov/dataset/pipeline-accident-incident-reports-natural-gas-distribution-incident-data-january-2010-to-) for data.
+
+[Cam Davidson-Pilon](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) for the excellent reference on PyMC3 and switch point analysis.
